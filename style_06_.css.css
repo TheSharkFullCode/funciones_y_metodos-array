@@ -1,0 +1,14 @@
+.nav{
+    width: 800px;
+    height: 300px;
+    border: darkcyan solid 2px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    color: rgb(58, 7, 110) ;
+    font-size: 10px;
+}
