@@ -181,12 +181,24 @@ console.log(`-------------------------------------------------`);
 // Crea un bucle for que sume los números de numbersy guarde el resultado en la variable results.
 // Crea dos arrays vacíos: evens y odds. A continuación crea un único bucle for que itere sobre el array numbers y, si el número es par, lo añada a evens, y si es impar a odds.
 numbers = [];
-let Savenumbers ="";
 for(let i=0; i<11; i++){
-     numbers +=[i]
-    console.log(i);
-}
-console.log(numbers.split(''));
+     numbers.push(i)
+
+    }
+    console.log(numbers);
+
+    //mi duda fue resuelta por angel porque i la puse dentro de un array y no es asi..
+    // se suma number mas i; y haces un log.. parte i tendria q estar fuera y no dentro de la funcion.
+
+    // for (let i =0;i<numbers.length;i++){
+    //     if (numbers[i]) % 2 === 0;
+    //     evens.push(number[i])
+
+    // else{
+    //      odd.push(number[i]);
+    //     }
+    // }
+// console.log(numbers.split(''));
 // result ="";
 
 // Ejercicio 7
@@ -211,6 +223,10 @@ const array = [["David", "Fernández"], ["Ana", "García"], ["Manuel", "Herrera"
 // Ejercicio 9
 // Calcula la media del siguiente array, y redonde su resultado a la baja:
 const grades = [5, 7, 7, 4, 8, 5, 3, 9];
+
+  
+
+
 
 // let suma = grades.reduce()
 

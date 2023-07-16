@@ -1,0 +1,9 @@
+section{
+    border: darkgreen solid 1px;
+    /* background-color: aqua; */
+    width: 700px;
+    padding: 10px,5px;
+    margin: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
